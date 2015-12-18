@@ -16,6 +16,10 @@
 .mc-h6a{
    padding-top: 10px;
 }
+.container {
+    width: auto !important;
+    max-width: 1100px !important;
+}
 a {
     color: #000;
 }
@@ -23,18 +27,24 @@ header {
     border-bottom: 1px solid #808080;
     margin-bottom: 15px;
 }
-nav {
-    margin-bottom: 8px;
+nav.navbar {
+    margin: 10px 0 0;
+}
+nav.navbar .navbar-toggle {
+    margin: 0;
+}
+nav.navbar .icon-bar {
+    background: #ff9e19;
 }
 #brand-logo {
     float: left;
     width: auto;
+    padding-right: 20px;
 }
 #nav-top {
     padding: 10px 0;
 }
 #social-icons {
-    padding-left: 20px;
     list-style-type: none;
     display: inline;
 }
@@ -53,30 +63,34 @@ nav {
     font-size: 15px;
     font-weight: 600;
 }
+#media-channel .flag.usa {
+    background-position: 0 -3664px;
+    background-image: url("assets/flags16.png");
+}
 #locale {
     float: right;
 }
 #nav-bottom {
-    clear: right;
-    margin-left: 130px;
+    margin-left: 80px;
 }
 #nav-bottom #menu {
-    display: inline-block;
-    width: 80%;
+    display: inline;
+    overflow: hidden;
+    position: relative;
 }
 #nav-bottom #menu ul {
-    display: flex;
-    justify-content: space-between;
+    width: 83%;
 }
 #nav-bottom #menu ul li {
-    display: inline-block;
-    line-height: 28px;
+    display: inline;
+    line-height: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
+    background-color: transparent;
 }
 #nav-bottom #menu ul li a {
-    padding: 0 25px;
+    padding: 10px 25px;
     text-align: center;
     display: block;
     width: 100%;
@@ -85,15 +99,16 @@ nav {
     background-color: #ff9e19;
     color: #fff;
 }
-#nav-bottom #search {
-    display: inline-block;
-    float: right;
+#search {
+    position: absolute;
+    right: 0;
+    padding: 6px 0;
 }
-#nav-bottom #search input[type="text"] {
+#search input[type="text"] {
     padding: 2px 5px;
     width: 120px;
 }
-#nav-bottom #search input[type="submit"] {
+#search input[type="submit"] {
     padding: 3px 5px;
     margin-left: -5px;
     width: 28px;
@@ -146,4 +161,41 @@ nav {
 .main-image .main-text a.btn {
     color: #fff;
     background-color: #e86600;
+}
+@media screen and (max-width: 768px) {
+    #menu {
+        display: none;
+    }
+    #search {
+        position: relative;
+        text-align: center;
+    }
+    #media-channel {
+        float: none;
+        clear: both;
+        padding-left: 20px;
+    }
+    #locale {
+        position: absolute;
+        top: 38px;
+        right: 0;
+    }
+    .navbar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    #nav-bottom {
+        margin: 0;
+    }
+    #nav-bottom #menu {
+        width: 100%;
+    }
+    #nav-bottom #menu ul.nav.navbar-nav {
+        margin: 0;
+        width: 100%;
+    }
+    nav.navbar {
+        margin: 0;
+    }
 }
