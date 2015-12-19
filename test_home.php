@@ -755,8 +755,7 @@ $domain_name =  get_home_url();
                                     <div class="execphpwidget">
 
 
-                                        <img src="<?php echo $domain_name;
-                                        ?>/wp-content/themes/Divi-child/img/newsz
+                                        <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/newsz
                                         .png" alt="">
                                         <!--<div class="znewsletter">-->
                                     <!--<div class="ml77">-->
