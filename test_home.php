@@ -18,14 +18,12 @@ $domain_name =  get_home_url();
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $domain_name;
-    ?>/wp-content/themes/Divi-child/thang-custom.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $domain_name;?>/wp-content/themes/Divi-child/thang-custom.css"/>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
             integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
             crossorigin="anonymous"></script>
 </head>
-
 
 <body itemscope="" itemtype="http://schema.org/WebPage" id='' class="home page page-id-2945 page-template-default geoip-country-IN geoip-continent-AS et_fixed_nav et_boxed_layout et_secondary_nav_enabled et_pb_side_nav_page linux et_pb_pagebuilder_layout et_right_sidebar gecko">
 
@@ -33,21 +31,22 @@ $domain_name =  get_home_url();
 <!--HEADER -->
 <div id="content" class="container">
     <header id="main-header" class="et_nav_text_color_dark">
-        <img src="img/logo-nav-mobile.jpg" id="brand-logo"/>
+        <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/logo-nav-mobile.jpg" id="brand-logo"/>
         <nav class="navbar">
             <div id="nav-top">
                 <ul id="social-icons">
-                    <li><a href="http://facebook.com"><img src="img/facebook.png"/></a></li>
-                    <li><a href="http://twitter.com"><img src="img/twitter.png"/></a></li>
-                    <li><a href="http://google.com"><img src="img/gplus.png"/></a></li>
-                    <li><a href="http://pinterest.com"><img src="img/pin.png"/></a></li>
-                    <li><a href="http://instagram.com"><img src="img/instagram.png"/></a></li>
-                    <li><a href="http://youtube.com"><img src="img/youtube.png"/></a></li>
+                    <li><a href="http://facebook.com"><img src="<?php echo $domain_name;
+                                                                    ?>/wp-content/themes/Divi-child/img/facebook.png"/></a></li>
+                    <li><a href="http://twitter.com"><img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/twitter.png"/></a></li>
+                    <li><a href="http://google.com"><img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/gplus.png"/></a></li>
+                    <li><a href="http://pinterest.com"><img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/pin.png"/></a></li>
+                    <li><a href="http://instagram.com"><img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/instagram.png"/></a></li>
+                    <li><a href="http://youtube.com"><img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/youtube.png"/></a></li>
                 </ul>
                 <div id="media-channel">
                     <a href="/tv"><i class="fa fa-tv"></i> Live TV</a>
-                    <a href="/tv"><i class="fa fa-play-circle-o"></i> Live TV</a>
-                    <a href="/tv"><i class="fa fa-camera"></i> Live TV</a>
+                    <a href="/tv"><i class="fa fa-play-circle-o"></i> Videos</a>
+                    <a href="/tv"><i class="fa fa-camera"></i> Slideshows</a>
                     <a href="/locale" id="locale"><span class="flag usa"></span>USA <i class="fa fa-caret-down"></i></a>
                 </div>
             </div>
@@ -59,29 +58,221 @@ $domain_name =  get_home_url();
             <div id="nav-bottom">
                 <div id="menu" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="/TV">TV</a></li>
-                        <li><a href="/TV">HEALTH</a></li>
-                        <li><a href="/TV">WELLNESS</a></li>
-                        <li><a href="/TV">FITNESS</a></li>
-                        <li><a href="/TV">FOOD</a></li>
-                        <li><a href="/TV">BEAUTY</a></li>
-                        <li><a href="/TV">HEALTH A TO Z</a></li>
+                        <li><a href="/TV" class="tv">TV</a></li>
+                        <li><a href="/TV" class="health">HEALTH</a></li>
+                        <li><a href="/TV" class="wellness">WELLNESS</a></li>
+                        <li><a href="/TV" class="fitness">FITNESS</a></li>
+                        <li><a href="/TV" class="food">FOOD</a></li>
+                        <li><a href="/TV" class="beauty">BEAUTY</a></li>
+                        <li><a href="/TV" class="healthatoz">HEALTH A TO Z</a></li>
                     </ul>
                     <div id="search">
                         <input type="text" placeholder="Search"/>
                         <input type="submit"/>
                     </div>
                 </div>
-
+                <div id="nav-dropdown">
+                    <div class="tv">
+                        <div class="col-5">
+                            <ul>
+                                <li><a href="">SHOWS</a></li>
+                                <li><a href="">TV SCHEDULE</a></li>
+                                <li><a href="">WHERE TO WATCH</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Cook-Your-Ass-Off.jpg"/>
+                            <p>Cook Your Ass Off</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/I-Beat-The-Odds.jpg"/>
+                            <p>I Beat The Odds</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Dueling-Doctors.jpg"/>
+                            <p>Dueling Doctors</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Yogapalooza.jpg"/>
+                            <p>Yogapalooza</p>
+                        </div>
+                    </div>
+                    <div class="health">
+                        <div class="col-5">
+                            <ul>
+                                <li class="diseases"><a href="">Diseases & Conditions</a></li>
+                                <li class="remedies"><a href="">Natural Remedies</a></li>
+                                <li class="alternative-medicine"><a href="">Complementary & Alternative Medicine</a></li>
+                                <li class="womens-health"><a href="">Women's Health</a></li>
+                                <li class="pregnancy"><a href="">Pregnancy & Babycare</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-5 diseases active">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Cook-Your-Ass-Off.jpg"/>
+                            <p>DISEASES 1</p>
+                        </div>
+                        <div class="col-5 diseases active">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/I-Beat-The-Odds.jpg"/>
+                            <p>DISEASES 2</p>
+                        </div>
+                        <div class="col-5 diseases active">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Dueling-Doctors.jpg"/>
+                            <p>DISEASES 3</p>
+                        </div>
+                        <div class="col-5 diseases active">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Yogapalooza.jpg"/>
+                            <p>DISEASES 4</p>
+                        </div>
+                        <div class="col-5 remedies">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/I-Beat-The-Odds.jpg"/>
+                            <p>REMEDIES 1</p>
+                        </div>
+                        <div class="col-5 remedies">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Cook-Your-Ass-Off.jpg"/>
+                            <p>REMEDIES 2</p>
+                        </div>
+                        <div class="col-5 remedies">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Yogapalooza.jpg"/>
+                            <p>REMEDIES 3</p>
+                        </div>
+                        <div class="col-5 remedies">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Dueling-Doctors.jpg"/>
+                            <p>REMEDIES 4</p>
+                        </div>
+                    </div>
+                    <div class="wellness">
+                        <div class="col-5">
+                            <ul>
+                                <li><a href="">Emotional Well-being</a></li>
+                                <li><a href="">Home & Family</a></li>
+                                <li><a href="">Travel</a></li>
+                                <li><a href="">Spa</a></li>
+                                <li><a href="">Meditation</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Cook-Your-Ass-Off.jpg"/>
+                            <p>Cook Your Ass Off</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/I-Beat-The-Odds.jpg"/>
+                            <p>I Beat The Odds</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Dueling-Doctors.jpg"/>
+                            <p>Dueling Doctors</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Yogapalooza.jpg"/>
+                            <p>Yogapalooza</p>
+                        </div>
+                    </div>
+                    <div class="fitness">
+                        <div class="col-5">
+                            <ul>
+                                <li><a href="">Exercise</a></li>
+                                <li><a href="">Weight loss</a></li>
+                                <li><a href="">Yoga</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Cook-Your-Ass-Off.jpg"/>
+                            <p>Cook Your Ass Off</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/I-Beat-The-Odds.jpg"/>
+                            <p>I Beat The Odds</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Dueling-Doctors.jpg"/>
+                            <p>Dueling Doctors</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Yogapalooza.jpg"/>
+                            <p>Yogapalooza</p>
+                        </div>
+                    </div>
+                    <div class="food">
+                        <div class="col-5">
+                            <ul>
+                                <li><a href="">Healthy Recipes</a></li>
+                                <li><a href="">Healthy Eating</a></li>
+                                <li><a href="">Diabetic Diet</a></li>
+                                <li><a href="">Vegetarian Diet</a></li>
+                                <li><a href="">Vegan Diet</a></li>
+                                <li><a href="">Gluten-free Diet</a></li>
+                                <li><a href="">Nutrition</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Cook-Your-Ass-Off.jpg"/>
+                            <p>Cook Your Ass Off</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/I-Beat-The-Odds.jpg"/>
+                            <p>I Beat The Odds</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Dueling-Doctors.jpg"/>
+                            <p>Dueling Doctors</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Yogapalooza.jpg"/>
+                            <p>Yogapalooza</p>
+                        </div>
+                    </div>
+                    <div class="beauty">
+                        <div class="col-5">
+                            <ul>
+                                <li><a href="">Skincare</a></li>
+                                <li><a href="">Haircare</a></li>
+                                <li><a href="">Anti-again</a></li>
+                                <li><a href="">DIY</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Cook-Your-Ass-Off.jpg"/>
+                            <p>Cook Your Ass Off</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/I-Beat-The-Odds.jpg"/>
+                            <p>I Beat The Odds</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Dueling-Doctors.jpg"/>
+                            <p>Dueling Doctors</p>
+                        </div>
+                        <div class="col-5">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Yogapalooza.jpg"/>
+                            <p>Yogapalooza</p>
+                        </div>
+                    </div>
+                    <div class="healthatoz">
+                        <div class="col-4">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Cook-Your-Ass-Off.jpg"/>
+                            <p>Cook Your Ass Off</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/I-Beat-The-Odds.jpg"/>
+                            <p>I Beat The Odds</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Dueling-Doctors.jpg"/>
+                            <p>Dueling Doctors</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/Yogapalooza.jpg"/>
+                            <p>Yogapalooza</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </nav>
-
     </header>
     <div id="featured" class="row">
         <div class="col-sm-3 col-xs-6">
             <a href="/">
-                <img src="img/apples-for-type-two-diabetes-550x309.jpg" class="img-responsive"/>
+                <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/apples-for-type-two-diabetes-550x309.jpg" class="img-responsive"/>
 
                 <div class="caption">
                     Quick Fix: Apples for Type 2 Diabetes
@@ -90,7 +281,7 @@ $domain_name =  get_home_url();
         </div>
         <div class="col-sm-3 col-xs-6">
             <a href="/">
-                <img src="img/fitness-trends-2016-550x309.jpg" class="img-responsive"/>
+                <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/fitness-trends-2016-550x309.jpg" class="img-responsive"/>
 
                 <div class="caption">
                     The Future Of Fitness: The Trend Report For 2016 Is Here!
@@ -102,7 +293,7 @@ $domain_name =  get_home_url();
         </div>
         <div class="col-sm-3 col-xs-6">
             <a href="/">
-                <img src="img/thai-550x309.jpg" class="img-responsive"/>
+                <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/thai-550x309.jpg" class="img-responsive"/>
 
                 <div class="caption">
                     Thai Way To Heaven: 14 Recipes From This Tasty Asian Cuisine
@@ -114,7 +305,7 @@ $domain_name =  get_home_url();
         </div>
         <div class="col-sm-3 col-xs-6">
             <a href="/">
-                <img src="img/multitasker-550x309.jpg" class="img-responsive"/>
+                <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/multitasker-550x309.jpg" class="img-responsive"/>
 
                 <div class="caption">
                     Fast Five: Smart Ways To Be More Productive At Work
@@ -123,7 +314,7 @@ $domain_name =  get_home_url();
         </div>
     </div>
     <div class="main-image">
-        <img src="img/kid%201368x541.jpg" class="responsive" class="img-responsive"/>
+        <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/kid%201368x541.jpg" class="responsive" class="img-responsive"/>
         <div class="main-text">
             <a href="">
                 <h1>Title of the Story goes here. Lorem Ipsum</h1>
@@ -135,9 +326,53 @@ $domain_name =  get_home_url();
 
 <script>
     $(window).load(function() {
-        $("#menu").hide();
-        $(".navbar-toggle").click(function() {
-            $("#menu").slideToggle("fast");
+//        $("#menu").hide();
+//        $(".navbar-toggle").click(function() {
+//            $("#menu").slideToggle("fast");
+//        });
+        $("#nav-bottom").hover(function() {
+                    $("#nav-dropdown").show();
+                }, function() {
+                    $("#nav-dropdown").hide();
+                }
+        );
+        $(".tv").hover(function() {
+            $("#nav-dropdown > *").removeClass("active");
+            $("#nav-dropdown > .tv").addClass("active");
+        });
+        $(".health").hover(function() {
+            $("#nav-dropdown > *").removeClass("active");
+            $("#nav-dropdown > .health").addClass("active");
+        });
+        $(".wellness").hover(function() {
+            $("#nav-dropdown > *").removeClass("active");
+            $("#nav-dropdown > .wellness").addClass("active");
+        });
+        $(".fitness").hover(function() {
+            $("#nav-dropdown > *").removeClass("active");
+            $("#nav-dropdown > .fitness").addClass("active");
+        });
+        $(".food").hover(function() {
+            $("#nav-dropdown > *").removeClass("active");
+            $("#nav-dropdown > .food").addClass("active");
+        });
+        $(".beauty").hover(function() {
+            $("#nav-dropdown > *").removeClass("active");
+            $("#nav-dropdown > .beauty").addClass("active");
+        });
+        $(".healthatoz").hover(function() {
+            $("#nav-dropdown > *").removeClass("active");
+            $("#nav-dropdown > .healthatoz").addClass("active");
+        });
+
+        //sub menus
+        $("li.diseases").hover(function() {
+            $(".col-5").removeClass("active");
+            $(".col-5.diseases").addClass("active");
+        });
+        $("li.remedies").hover(function() {
+            $(".col-5").removeClass("active");
+            $(".col-5.remedies").addClass("active");
         });
     });
 </script>
@@ -175,7 +410,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -185,7 +420,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -195,7 +430,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -205,7 +440,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -238,7 +473,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -248,7 +483,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -258,7 +493,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -268,7 +503,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -293,7 +528,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -303,7 +538,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -313,7 +548,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -323,7 +558,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -349,7 +584,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -359,7 +594,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -369,7 +604,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -379,7 +614,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -405,7 +640,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -415,7 +650,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -425,7 +660,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -435,7 +670,7 @@ $domain_name =  get_home_url();
                                 <div>
                                     <div class="schover big">
                                         <a href="/">
-                                            <img width="372" height="209" src="img/sunny-xmas-372x209.jpg">
+                                            <img width="372" height="209" src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/sunny-xmas-372x209.jpg">
                                         </a>
                                         <h4 class="mc-h6"><a  href="/">White Christmas Not Your Thing? Try These 4 Sunny
                                             Holiday Destinations</a></h4>
@@ -460,7 +695,7 @@ $domain_name =  get_home_url();
                                             <article>
                                                 <div class="small pull-left">
                                                     <a href="/"><img width="80" height="80"
-                                                                     src="img/breastfeeding-80x80.jpg"
+                                                                     src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/breastfeeding-80x80.jpg"
                                                                      class="attachment-thumbnail-name-80x80 wp-post-image" alt="breastfeeding" /></a>
                                                 </div>
                                                 <p class="catname"><a href="/">Health</a></p>
@@ -471,7 +706,7 @@ $domain_name =  get_home_url();
                                             <article>
                                                 <div class="small pull-left">
                                                     <a href="/"><img width="80" height="80"
-                                                                     src="img/breastfeeding-80x80.jpg"
+                                                                     src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/breastfeeding-80x80.jpg"
                                                                      class="attachment-thumbnail-name-80x80 wp-post-image" alt="breastfeeding" /></a>
                                                 </div>
                                                 <p class="catname"><a href="/">Beauty</a></p>
@@ -482,7 +717,7 @@ $domain_name =  get_home_url();
                                             <article>
                                                 <div class="small pull-left">
                                                     <a href="/"><img width="80" height="80"
-                                                                     src="img/breastfeeding-80x80.jpg"
+                                                                     src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/breastfeeding-80x80.jpg"
                                                                      class="attachment-thumbnail-name-80x80 wp-post-image" alt="breastfeeding" /></a>
                                                 </div>
                                                 <p class="catname"><a href="/">Food</a></p>
@@ -493,7 +728,7 @@ $domain_name =  get_home_url();
                                             <article>
                                                 <div class="small pull-left">
                                                     <a href="/"><img width="80" height="80"
-                                                                     src="img/breastfeeding-80x80.jpg"
+                                                                     src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/breastfeeding-80x80.jpg"
                                                                      class="attachment-thumbnail-name-80x80 wp-post-image" alt="breastfeeding" /></a>
                                                 </div>
                                                 <p class="catname"><a href="/">Wellness</a></p>
@@ -510,7 +745,7 @@ $domain_name =  get_home_url();
                             <!--some ads here-->
                             <div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
 
-                                <img src="img/ads300x250.png" alt="">
+                                <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/ads300x250.png" alt="">
                         </div>
 
 
@@ -520,7 +755,7 @@ $domain_name =  get_home_url();
                                     <div class="execphpwidget">
 
 
-                                        <img src="img/newsz.png" alt="">
+                                        <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/newsz.png" alt="">
                                         <!--<div class="znewsletter">-->
                                     <!--<div class="ml77">-->
                                         <!--<img alt="ZLiving" src="http://www.zliving.com/wp-content/themes/Divi/images/logo.png">-->
