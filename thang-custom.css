@@ -20,9 +20,41 @@
 .container {
     width: auto !important;
     max-width: 1100px !important;
+    padding: 0;
 }
 a {
     color: #000;
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
 }
 header {
     border-bottom: 1px solid #808080;
@@ -71,16 +103,13 @@ nav.navbar .icon-bar {
 #locale {
     float: right;
 }
-#nav-bottom {
-    margin-left: 80px;
-}
 #nav-bottom #menu {
     display: inline;
     overflow: hidden;
     position: relative;
 }
 #nav-bottom #menu ul {
-    width: 83%;
+    width: 85%;
 }
 #nav-bottom #menu ul li {
     display: inline;
@@ -100,6 +129,13 @@ nav.navbar .icon-bar {
     background-color: #ff9e19;
     color: #fff;
 }
+#nav-bottom .col-5.diseases,
+#nav-bottom .col-5.remedies {
+    display: none;
+}
+#nav-bottom .active {
+    display: inline-block !important;
+}
 #search {
     position: absolute;
     right: 0;
@@ -116,6 +152,55 @@ nav.navbar .icon-bar {
     background: #ff9e19 url("assets/search-icon.png") center center no-repeat;
     text-indent: -9999em;
     background-size: 18px auto;
+}
+#nav-dropdown {
+    padding: 10px 0 0;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 5px solid #f61500;
+    display: none;
+}
+#nav-dropdown .col-4 {
+    width: 24.5%;
+    display: inline-block;
+}
+#nav-dropdown .col-5 {
+    width: 20%;
+    display: inline-block;
+}
+#nav-dropdown .col-5:first-child {
+    width: 18.5%;
+    padding: 0 10px;
+    vertical-align: top;
+}
+#nav-dropdown img {
+    width: 100%;
+}
+#nav-dropdown li {
+    text-align: right;
+}
+#nav-dropdown li a {
+    color: #f61500;
+}
+#nav-dropdown li a:hover {
+    font-weight: bold;
+}
+#nav-dropdown p {
+    padding: 5px 0;
+}
+#nav-dropdown .col-sm-15 {
+    padding: 0 5px;
+}
+#nav-dropdown .tv,
+#nav-dropdown .health,
+#nav-dropdown .wellness,
+#nav-dropdown .fitness,
+#nav-dropdown .food,
+#nav-dropdown .beauty,
+#nav-dropdown .healthatoz {
+    display: none;
 }
 #featured {
     padding: 0;

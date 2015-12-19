@@ -1,15 +1,25 @@
+<?php
+/*Template Name: Testing homep page*/
+$domain_name =  get_home_url();
+?>
+
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="shortcut icon" href="<?php echo $domain_name;?>/wp-content/themes/Divi/images/favicon.ico" type="image/x-icon" >
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $domain_name;?>/wp-content/themes/Divi/css/main.css?2.9" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $domain_name;?>/wp-content/themes/Divi/css/common.css?4.0" />
+    <script src="<?php echo $domain_name;?>/wp-content/themes/Divi/js/main.js?2.9" type="text/javascript"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" media="all" href="common.css"/>
-    <link rel="stylesheet" type="text/css" media="all" href="main.css"/>
-    <link rel="stylesheet" type="text/css" media="all" href="thang-custom.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $domain_name;
+    ?>/wp-content/themes/Divi-child/thang-custom.css"/>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
             integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
@@ -36,8 +46,8 @@
                 </ul>
                 <div id="media-channel">
                     <a href="/tv"><i class="fa fa-tv"></i> Live TV</a>
-                    <a href="/tv"><i class="fa fa-play-circle-o"></i> Videos</a>
-                    <a href="/tv"><i class="fa fa-camera"></i> Slideshows</a>
+                    <a href="/tv"><i class="fa fa-play-circle-o"></i> Live TV</a>
+                    <a href="/tv"><i class="fa fa-camera"></i> Live TV</a>
                     <a href="/locale" id="locale"><span class="flag usa"></span>USA <i class="fa fa-caret-down"></i></a>
                 </div>
             </div>
@@ -49,216 +59,24 @@
             <div id="nav-bottom">
                 <div id="menu" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="/TV" class="tv">TV</a></li>
-                        <li><a href="/TV" class="health">HEALTH</a></li>
-                        <li><a href="/TV" class="wellness">WELLNESS</a></li>
-                        <li><a href="/TV" class="fitness">FITNESS</a></li>
-                        <li><a href="/TV" class="food">FOOD</a></li>
-                        <li><a href="/TV" class="beauty">BEAUTY</a></li>
-                        <li><a href="/TV" class="healthatoz">HEALTH A TO Z</a></li>
+                        <li><a href="/TV">TV</a></li>
+                        <li><a href="/TV">HEALTH</a></li>
+                        <li><a href="/TV">WELLNESS</a></li>
+                        <li><a href="/TV">FITNESS</a></li>
+                        <li><a href="/TV">FOOD</a></li>
+                        <li><a href="/TV">BEAUTY</a></li>
+                        <li><a href="/TV">HEALTH A TO Z</a></li>
                     </ul>
                     <div id="search">
                         <input type="text" placeholder="Search"/>
                         <input type="submit"/>
                     </div>
                 </div>
-                <div id="nav-dropdown">
-                    <div class="tv">
-                        <div class="col-5">
-                            <ul>
-                                <li><a href="">SHOWS</a></li>
-                                <li><a href="">TV SCHEDULE</a></li>
-                                <li><a href="">WHERE TO WATCH</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Cook-Your-Ass-Off.jpg"/>
-                            <p>Cook Your Ass Off</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/I-Beat-The-Odds.jpg"/>
-                            <p>I Beat The Odds</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Dueling-Doctors.jpg"/>
-                            <p>Dueling Doctors</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Yogapalooza.jpg"/>
-                            <p>Yogapalooza</p>
-                        </div>
-                    </div>
-                    <div class="health">
-                        <div class="col-5">
-                            <ul>
-                                <li class="diseases"><a href="">Diseases & Conditions</a></li>
-                                <li class="remedies"><a href="">Natural Remedies</a></li>
-                                <li class="alternative-medicine"><a href="">Complementary & Alternative Medicine</a></li>
-                                <li class="womens-health"><a href="">Women's Health</a></li>
-                                <li class="pregnancy"><a href="">Pregnancy & Babycare</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-5 diseases active">
-                            <img src="img/Cook-Your-Ass-Off.jpg"/>
-                            <p>DISEASES 1</p>
-                        </div>
-                        <div class="col-5 diseases active">
-                            <img src="img/I-Beat-The-Odds.jpg"/>
-                            <p>DISEASES 2</p>
-                        </div>
-                        <div class="col-5 diseases active">
-                            <img src="img/Dueling-Doctors.jpg"/>
-                            <p>DISEASES 3</p>
-                        </div>
-                        <div class="col-5 diseases active">
-                            <img src="img/Yogapalooza.jpg"/>
-                            <p>DISEASES 4</p>
-                        </div>
-                        <div class="col-5 remedies">
-                            <img src="img/I-Beat-The-Odds.jpg"/>
-                            <p>REMEDIES 1</p>
-                        </div>
-                        <div class="col-5 remedies">
-                            <img src="img/Cook-Your-Ass-Off.jpg"/>
-                            <p>REMEDIES 2</p>
-                        </div>
-                        <div class="col-5 remedies">
-                            <img src="img/Yogapalooza.jpg"/>
-                            <p>REMEDIES 3</p>
-                        </div>
-                        <div class="col-5 remedies">
-                            <img src="img/Dueling-Doctors.jpg"/>
-                            <p>REMEDIES 4</p>
-                        </div>
-                    </div>
-                    <div class="wellness">
-                        <div class="col-5">
-                            <ul>
-                                <li><a href="">Emotional Well-being</a></li>
-                                <li><a href="">Home & Family</a></li>
-                                <li><a href="">Travel</a></li>
-                                <li><a href="">Spa</a></li>
-                                <li><a href="">Meditation</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Cook-Your-Ass-Off.jpg"/>
-                            <p>Cook Your Ass Off</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/I-Beat-The-Odds.jpg"/>
-                            <p>I Beat The Odds</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Dueling-Doctors.jpg"/>
-                            <p>Dueling Doctors</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Yogapalooza.jpg"/>
-                            <p>Yogapalooza</p>
-                        </div>
-                    </div>
-                    <div class="fitness">
-                        <div class="col-5">
-                            <ul>
-                                <li><a href="">Exercise</a></li>
-                                <li><a href="">Weight loss</a></li>
-                                <li><a href="">Yoga</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Cook-Your-Ass-Off.jpg"/>
-                            <p>Cook Your Ass Off</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/I-Beat-The-Odds.jpg"/>
-                            <p>I Beat The Odds</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Dueling-Doctors.jpg"/>
-                            <p>Dueling Doctors</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Yogapalooza.jpg"/>
-                            <p>Yogapalooza</p>
-                        </div>
-                    </div>
-                    <div class="food">
-                        <div class="col-5">
-                            <ul>
-                                <li><a href="">Healthy Recipes</a></li>
-                                <li><a href="">Healthy Eating</a></li>
-                                <li><a href="">Diabetic Diet</a></li>
-                                <li><a href="">Vegetarian Diet</a></li>
-                                <li><a href="">Vegan Diet</a></li>
-                                <li><a href="">Gluten-free Diet</a></li>
-                                <li><a href="">Nutrition</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Cook-Your-Ass-Off.jpg"/>
-                            <p>Cook Your Ass Off</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/I-Beat-The-Odds.jpg"/>
-                            <p>I Beat The Odds</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Dueling-Doctors.jpg"/>
-                            <p>Dueling Doctors</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Yogapalooza.jpg"/>
-                            <p>Yogapalooza</p>
-                        </div>
-                    </div>
-                    <div class="beauty">
-                        <div class="col-5">
-                            <ul>
-                                <li><a href="">Skincare</a></li>
-                                <li><a href="">Haircare</a></li>
-                                <li><a href="">Anti-again</a></li>
-                                <li><a href="">DIY</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Cook-Your-Ass-Off.jpg"/>
-                            <p>Cook Your Ass Off</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/I-Beat-The-Odds.jpg"/>
-                            <p>I Beat The Odds</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Dueling-Doctors.jpg"/>
-                            <p>Dueling Doctors</p>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/Yogapalooza.jpg"/>
-                            <p>Yogapalooza</p>
-                        </div>
-                    </div>
-                    <div class="healthatoz">
-                        <div class="col-4">
-                            <img src="img/Cook-Your-Ass-Off.jpg"/>
-                            <p>Cook Your Ass Off</p>
-                        </div>
-                        <div class="col-4">
-                            <img src="img/I-Beat-The-Odds.jpg"/>
-                            <p>I Beat The Odds</p>
-                        </div>
-                        <div class="col-4">
-                            <img src="img/Dueling-Doctors.jpg"/>
-                            <p>Dueling Doctors</p>
-                        </div>
-                        <div class="col-4">
-                            <img src="img/Yogapalooza.jpg"/>
-                            <p>Yogapalooza</p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
+
         </nav>
+
     </header>
     <div id="featured" class="row">
         <div class="col-sm-3 col-xs-6">
@@ -317,53 +135,9 @@
 
 <script>
     $(window).load(function() {
-//        $("#menu").hide();
-//        $(".navbar-toggle").click(function() {
-//            $("#menu").slideToggle("fast");
-//        });
-        $("#nav-bottom").hover(function() {
-                    $("#nav-dropdown").show();
-                }, function() {
-                    $("#nav-dropdown").hide();
-                }
-        );
-        $(".tv").hover(function() {
-            $("#nav-dropdown > *").removeClass("active");
-            $("#nav-dropdown > .tv").addClass("active");
-        });
-        $(".health").hover(function() {
-            $("#nav-dropdown > *").removeClass("active");
-            $("#nav-dropdown > .health").addClass("active");
-        });
-        $(".wellness").hover(function() {
-            $("#nav-dropdown > *").removeClass("active");
-            $("#nav-dropdown > .wellness").addClass("active");
-        });
-        $(".fitness").hover(function() {
-            $("#nav-dropdown > *").removeClass("active");
-            $("#nav-dropdown > .fitness").addClass("active");
-        });
-        $(".food").hover(function() {
-            $("#nav-dropdown > *").removeClass("active");
-            $("#nav-dropdown > .food").addClass("active");
-        });
-        $(".beauty").hover(function() {
-            $("#nav-dropdown > *").removeClass("active");
-            $("#nav-dropdown > .beauty").addClass("active");
-        });
-        $(".healthatoz").hover(function() {
-            $("#nav-dropdown > *").removeClass("active");
-            $("#nav-dropdown > .healthatoz").addClass("active");
-        });
-
-        //sub menus
-        $("li.diseases").hover(function() {
-            $(".col-5").removeClass("active");
-            $(".col-5.diseases").addClass("active");
-        });
-        $("li.remedies").hover(function() {
-            $(".col-5").removeClass("active");
-            $(".col-5.remedies").addClass("active");
+        $("#menu").hide();
+        $(".navbar-toggle").click(function() {
+            $("#menu").slideToggle("fast");
         });
     });
 </script>
@@ -732,7 +506,7 @@
                                 </div> <!-- .et_pb_tab -->
                                 </div> <!-- .et_pb_all_tabs -->
                             </div> <!-- .et_pb_tabs -->
-                            
+
                             <!--some ads here-->
                             <div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
 
@@ -742,7 +516,7 @@
 
                             <!--Newsletter-->
                             <div class="et_pb_widget_area et_pb_widget_area_left clearfix et_pb_bg_layout_light">
-                                <div id="execphp-26" class="et_pb_widget widget_execphp">			
+                                <div id="execphp-26" class="et_pb_widget widget_execphp">
                                     <div class="execphpwidget">
 
 
