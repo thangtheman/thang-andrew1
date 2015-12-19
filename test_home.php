@@ -195,7 +195,7 @@ $domain_name =  get_home_url();
                     <div class="food">
                         <div class="col-5">
                             <ul>
-                                <li><a href="">Healthy Recipes</a></li>
+                                <li><a href="">Recipes</a></li>
                                 <li><a href="">Healthy Eating</a></li>
                                 <li><a href="">Diabetic Diet</a></li>
                                 <li><a href="">Vegetarian Diet</a></li>
