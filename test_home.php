@@ -684,7 +684,7 @@ $domain_name =  get_home_url();
 
                         </div> <!-- One column div -->
                         <div  class="et_pb_column et_pb_column_1_3">
-                            SIDEBAR
+
                             <div class="et_pb_tabs widgettabs">
                                 <ul class="et_pb_tabs_controls clearfix">
                                     <li class="et_pb_tab_active"><a href="#">Recommended</a></li><li><a href="#">Latest</a></li>
@@ -755,7 +755,9 @@ $domain_name =  get_home_url();
                                     <div class="execphpwidget">
 
 
-                                        <img src="<?php echo $domain_name;?>/wp-content/themes/Divi-child/img/newsz.png" alt="">
+                                        <img src="<?php echo $domain_name;
+                                        ?>/wp-content/themes/Divi-child/img/newsz
+                                        .png" alt="">
                                         <!--<div class="znewsletter">-->
                                     <!--<div class="ml77">-->
                                         <!--<img alt="ZLiving" src="http://www.zliving.com/wp-content/themes/Divi/images/logo.png">-->

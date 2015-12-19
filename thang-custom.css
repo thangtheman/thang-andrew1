@@ -98,7 +98,7 @@ nav.navbar .icon-bar {
 }
 #media-channel .flag.usa {
     background-position: 0 -3664px;
-    background-image: url("assets/flags16.png");
+    background-image: url("img/flags16.png");
 }
 #locale {
     float: right;
@@ -149,7 +149,7 @@ nav.navbar .icon-bar {
     padding: 3px 5px;
     margin-left: -5px;
     width: 28px;
-    background: #ff9e19 url("assets/search-icon.png") center center no-repeat;
+    background: #ff9e19 url("img/search-icon.png") center center no-repeat;
     text-indent: -9999em;
     background-size: 18px auto;
 }
