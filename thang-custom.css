@@ -263,8 +263,8 @@ nav.navbar .icon-bar {
     }
     #locale {
         position: absolute;
-        top: 38px;
-        right: 0;
+        top: 75px;
+        right: -20px;
     }
     .navbar-toggle {
         position: absolute;
