@@ -4,6 +4,7 @@
     <list default="true" id="3cf0c7ce-c464-4982-861f-0a414b2fde8c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thang-custom.css" afterPath="$PROJECT_DIR$/thang-custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thang_test.html" afterPath="$PROJECT_DIR$/thang_test.html" />
     </list>
     <ignored path="New Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="thang_test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thang_test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="35" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="35" />
+            <state vertical-scroll-proportion="6.5384617">
+              <caret line="308" column="25" selection-start-line="308" selection-start-column="25" selection-end-line="308" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,8 +42,8 @@
       <file leaf-file-name="thang-custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thang-custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40528634">
-              <caret line="266" column="18" selection-start-line="266" selection-start-column="18" selection-end-line="266" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.95412844">
+              <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +68,8 @@
         <option value="$PROJECT_DIR$/thang.custom.css" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/js.js" />
-        <option value="$PROJECT_DIR$/thang_test.html" />
         <option value="$PROJECT_DIR$/test_home.php" />
+        <option value="$PROJECT_DIR$/thang_test.html" />
         <option value="$PROJECT_DIR$/thang-custom.css" />
       </list>
     </option>
@@ -79,8 +80,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="23" />
+    <option name="x" value="243" />
+    <option name="y" value="158" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
@@ -109,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -130,7 +132,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +214,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="23" width="1440" height="825" extended-state="6" />
+    <frame x="243" y="158" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -522,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thang_test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="35" />
+        <state vertical-scroll-proportion="6.5384617">
+          <caret line="308" column="25" selection-start-line="308" selection-start-column="25" selection-end-line="308" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -534,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thang-custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40528634">
-          <caret line="266" column="18" selection-start-line="266" selection-start-column="18" selection-end-line="266" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.95412844">
+          <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
           <folding />
         </state>
       </provider>

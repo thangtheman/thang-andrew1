@@ -34,6 +34,16 @@
                     <li><a href="http://instagram.com"><img src="img/instagram.png"/></a></li>
                     <li><a href="http://youtube.com"><img src="img/youtube.png"/></a></li>
                 </ul>
+                <div id="search">
+                    <input type="text" placeholder="Search"/>
+                    <input type="submit"/>
+                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
                 <div id="media-channel">
                     <a href="/tv"><i class="fa fa-tv"></i> Live TV</a>
                     <a href="/tv"><i class="fa fa-play-circle-o"></i> Videos</a>
@@ -41,11 +51,7 @@
                     <a href="/locale" id="locale"><span class="flag usa"></span>USA <i class="fa fa-caret-down"></i></a>
                 </div>
             </div>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+
             <div id="nav-bottom">
                 <div id="menu" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -57,10 +63,6 @@
                         <li><a href="/TV" class="beauty">BEAUTY</a></li>
                         <li><a href="/TV" class="healthatoz">HEALTH A TO Z</a></li>
                     </ul>
-                    <div id="search">
-                        <input type="text" placeholder="Search"/>
-                        <input type="submit"/>
-                    </div>
                 </div>
                 <div id="nav-dropdown">
                     <div class="tv">
@@ -186,7 +188,6 @@
                     <div class="food">
                         <div class="col-5">
                             <ul>
-                                <li><a href="">Recipes</a></li>
                                 <li><a href="">Healthy Eating</a></li>
                                 <li><a href="">Diabetic Diet</a></li>
                                 <li><a href="">Vegetarian Diet</a></li>
@@ -320,6 +321,9 @@
         $("#menu").hide();
         $(".navbar-toggle").click(function() {
             $("#menu").slideToggle("fast");
+        });
+        $("#search").click(function() {
+            $(this).find("input[type='text']").show();
         });
         $("#nav-bottom").hover(function() {
                     $("#nav-dropdown").show();

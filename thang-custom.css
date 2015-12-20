@@ -15,7 +15,7 @@
 }
 
 .mc-h6a{
-   padding-top: 10px;
+    padding-top: 10px;
 }
 .container {
     width: auto !important;
@@ -139,7 +139,7 @@ nav.navbar .icon-bar {
 #search {
     position: absolute;
     right: 0;
-    padding: 6px 0;
+    padding: 18px 0 0;
 }
 #search input[type="text"] {
     padding: 2px 5px;
@@ -253,8 +253,17 @@ nav.navbar .icon-bar {
         display: none;
     }
     #search {
+        float: right;
         position: relative;
-        text-align: center;
+        display: inline-block;
+        padding: 3px;
+    }
+    #search input[type="text"] {
+        display: none;
+    }
+    .navbar-toggle {
+        display: inline-block;
+        float: right;
     }
     #media-channel {
         float: none;
@@ -265,11 +274,6 @@ nav.navbar .icon-bar {
         position: absolute;
         top: 75px;
         right: -20px;
-    }
-    .navbar-toggle {
-        position: absolute;
-        top: 10px;
-        right: 0;
     }
     #nav-bottom {
         margin: 0;
