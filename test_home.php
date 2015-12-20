@@ -326,10 +326,10 @@ $domain_name =  get_home_url();
 
 <script>
     $(window).load(function() {
-//        $("#menu").hide();
-//        $(".navbar-toggle").click(function() {
-//            $("#menu").slideToggle("fast");
-//        });
+        $("#menu").hide();
+        $(".navbar-toggle").click(function() {
+            $("#menu").slideToggle("fast");
+        });
         $("#nav-bottom").hover(function() {
                     $("#nav-dropdown").show();
                 }, function() {
